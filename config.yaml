@@ -1,0 +1,43 @@
+# config.yaml - Centralized configuration for chimpanzee size estimation pipeline
+
+# Data paths
+data:
+  json_file: "sample_data/red_lasers/sample_data.json"
+  image_folder: "sample_data/red_lasers/sample_data"
+  mask_folder: "sample_data/red_lasers/sample_data_masks"
+  truth_json: "../data/red_laser_truth.json"
+  measured_csv: "../data/measured.csv"
+
+# SAM (Segment Anything Model) configuration
+sam:
+  checkpoint_path: "models/sam_vit_h_4b8939.pth"
+  model_type: "vit_h"  # Options: "vit_h", "vit_l", "vit_b"
+  device: "cuda"  # Options: "cuda" or "cpu"
+
+# ViTPose configuration
+vitpose:
+  model_size: "b"  # Options: "h" (huge), "b" (base), "l" (large)
+  yolo_size: "n"  # Options: "n" (nano), "s" (small), "m" (medium)
+  dataset: "apt36k"
+  repo_id: "JunkyByte/easy_ViTPose"
+  model_type: "torch"
+  yolo_type: "torch"
+
+# Laser detection parameters
+laser_detection:
+  color: "red"  # Options: "red" or "green"
+  min_distance_px: 30
+  max_distance_px: 600
+  gaussian_blur_size: 25
+  threshold: 210
+
+# Pipeline settings
+pipeline:
+  save_intermediate_results: true
+  resume_on_failure: false
+  output_json: null  # If null, overwrites input json_file
+
+# Environment settings
+environment:
+  use_gpu: true
+  num_workers: 4
