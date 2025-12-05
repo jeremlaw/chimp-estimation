@@ -2,11 +2,11 @@
 
 # Data paths
 data:
-  json_file: "sample_data/red_lasers/sample_data.json"
-  image_folder: "sample_data/red_lasers/sample_data"
-  mask_folder: "sample_data/red_lasers/sample_data_masks"
-  truth_json: "../data/red_laser_truth.json"
-  measured_csv: "../data/measured.csv"
+  json_file: "data/smallTest/smallTestData.json"
+  image_folder: "data/smallTest/images"
+  mask_folder: "data/smallTest/masks"
+  truth_json: "data/smallTest/truth.json"
+  measured_csv: "data/smallTest/measured.csv"
 
 # SAM (Segment Anything Model) configuration
 sam:
@@ -25,7 +25,7 @@ vitpose:
 
 # Laser detection parameters
 laser_detection:
-  color: "red"  # Options: "red" or "green"
+  color: "green"  # Options: "red" or "green"
   min_distance_px: 30
   max_distance_px: 600
   gaussian_blur_size: 25
