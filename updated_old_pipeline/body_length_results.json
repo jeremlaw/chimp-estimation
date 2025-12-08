@@ -1,0 +1,55 @@
+{
+    "10-Feb-2016-134.JPG": {
+        "detected_laser_dist": 168.0,
+        "sr_dist": 1472.9358438166953,
+        "ratio": 8.767475260813663,
+        "actual_laser_dist": 268.01679051880313,
+        "calculated_body_length": 2349.8305803562844
+    },
+    "3-Feb-2016-294.JPG": {
+        "detected_laser_dist": 547.2641044322202,
+        "sr_dist": 1745.2406710823582,
+        "ratio": 3.189028216811377,
+        "actual_laser_dist": 213.19005605327843,
+        "calculated_body_length": 679.869104297504
+    },
+    "3-Feb-2016-565.JPG": {
+        "detected_laser_dist": 220.0,
+        "sr_dist": 1456.036400643885,
+        "ratio": 6.618347275654022,
+        "actual_laser_dist": 104.38869670610895,
+        "calculated_body_length": 690.8806464539501
+    },
+    "3-Nov-2015-417.JPG": {
+        "detected_laser_dist": 409.6059081605147,
+        "sr_dist": 1054.6743573255205,
+        "ratio": 2.574851427465785,
+        "actual_laser_dist": 102.0196059588548,
+        "calculated_body_length": 262.6853280326542
+    },
+    "30-Oct-2015-157.JPG": {
+        "error": "insufficient_detected_laser_points",
+        "detected_count": 1
+    },
+    "4-Dec-2015-4.JPG": {
+        "detected_laser_dist": 182.02472359545007,
+        "sr_dist": 1273.7601815098476,
+        "ratio": 6.997731716603397,
+        "actual_laser_dist": 182.0109886792553,
+        "calculated_body_length": 1273.6640682511666
+    },
+    "4-Feb-2016-247.JPG": {
+        "detected_laser_dist": 33.24154027718932,
+        "sr_dist": 1188.9243037300566,
+        "ratio": 35.76622183617371,
+        "actual_laser_dist": 95.04735661763561,
+        "calculated_body_length": 3399.484841728269
+    },
+    "6-Oct-2015-186.JPG": {
+        "detected_laser_dist": 108.00462953040486,
+        "sr_dist": 959.5128972556856,
+        "ratio": 8.883997856643441,
+        "actual_laser_dist": 110.16351483136329,
+        "calculated_body_length": 978.6924296421394
+    }
+}
